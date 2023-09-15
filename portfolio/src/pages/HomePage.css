@@ -68,7 +68,7 @@ width: 20rem;
 }
 .xxx{
   animation: morph 8s ease-in-out infinite;
-background-image: url("./_pic2.JPEG");
+background-image: url("./pic2.jpeg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
