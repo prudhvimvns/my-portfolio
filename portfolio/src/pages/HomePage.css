@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Poppins&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Mulish&family=Outfit:wght@300;400;500;700&family=Poppins&display=swap'); */
+
+.body{
+    background-color:#131316;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.x{
+    animation-delay: 0.2s;
+}
+.Section{
+    display: grid;
+    align-items: center;
+    place-items: center;
+    min-height: 100vh;
+}
+.box{
+    background-color:grey;
+    max-width: 50vw;
+    max-height: 50vh;
+    border-radius: 20px;
+    margin: 0px 20px 10px 0px;
+
+}
+.boxmain{
+    display:-webkit-inline-box;
+    background-color: green;
+    width:100%;
+    /* display: grid; */
+    /* align-items: center; */
+    place-items: center;
+
+}
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+.animate-bounce {
+    animation: bounce 2s ease infinite;
+  }
+  @keyframes animate-bounce {
+      70% { transform:translateY(0%); }
+      80% { transform:translateY(-15%); }
+      90% { transform:translateY(0%); }
+      95% { transform:translateY(-7%); }
+      97% { transform:translateY(0%); }
+      99% { transform:translateY(-3%); }
+      100% { transform:translateY(0); }
+  }
+
+.xx{
+    animation: morph 8s ease-in-out infinite;
+background-image: url("./pic.jpeg");
+background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+border: 3px solid #2d2e32;
+border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+height: 20rem;
+position: relative;
+transition: all 1s ease-in-out;
+width: 20rem;
+}
+.xxx{
+  animation: morph 8s ease-in-out infinite;
+background-image: url("./_pic2.JPEG");
+background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+border: 3px solid #2d2e32;
+border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+height: 20rem;
+position: relative;
+transition: all 1s ease-in-out;
+width: 20rem;
+}
+
+.menu-tabs{
+    text-align: right;
+}
+
+.boxLayout{
+    background-color:#313136;
+    height: 30rem;
+    width:80rem;
+    border-radius:30px;
+    color:#ffffff;
+    text-align: center;
+    padding:50px;
+}
+b{
+  font-weight:700;
+}
+
+  .move{
+    margin-top: 30px;
+    animation: move 3s infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes move {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      25% {
+        transform: translateY(-20px);
+      }
+      50% {
+        transform: translateY(0);
+      }
+      75% {
+        transform: translateY(-20px);
+      }
+
+  }
+.hi{
+  margin-top: 30px;
+  animation: moves 1s infinite;
+  /* text-align: center; */
+  cursor: pointer;
+}
+
+@keyframes moves {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    /* transform: translateX(-10px); */
+  }
+  50% {
+    /* transform: translateX(-20px); */
+  }
+  75% {
+    transform: translateX(20px);
+  }
+}
+  .navbarTabs{
+    cursor: pointer;
+    margin:10px;
+    font-size: 20px;
+  }
+  .outerBox{
+    background-color: #313136;
+    color: #ffffff;
+    margin:10px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    min-height: 100px;
+    text-align: center;
+  }
+  .outerBox2{
+    background-color: #313136;
+    color: #ffffff;
+    margin:10px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    height: 60vh;
+    text-align: center;
+  }
+  .pic{
+    background-image:url("./airplane.jpg");
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+    height: 10rem;
+    width: auto;
+  }
+  .github{
+    background-image: url("./github-logo.png");
+    background-position: 50%;
+    background-size: cover;
+    max-height: 50px;
+    cursor: pointer;
+    max-width:50px;
+    cursor: pointer;
+  }
+  .twitter{
+    background-image:url("./twitters.webp");
+    background-position: 50%;
+    background-size: cover;
+    height: 10rem;
+    cursor: pointer;
+    width: auto;
+  }
+  .aws{
+    background-image:url("./aws.png");
+    background-position: 50%;
+    background-size: cover;
+    padding-top: 10rem;
+    height: 90%;
+    cursor: pointer;
+    width: 100%;
+  }
+  .GA{
+    background-image:url("./GA.png");
+    background-position: 50%;
+    background-size: cover;
+    padding-top: 10rem;
+    cursor: pointer;
+    height: 90%;
+    width: 100%;
+  }
+  .ml{
+    background-image:url("./ml.png");
+    background-position: 50%;
+    background-size: cover;
+    height: 90%;
+    cursor: pointer;
+    width: 100%;
+  }
+  .robo{
+    background-image:url("./robot.jpg");
+    background-position: 50%;
+    background-size: cover;
+    height: 10rem;
+    width: auto;
+  }
+  .contactDiv{
+    /* background-color: aqua; */
+    /* display: grid;
+    align-items: center;
+    place-items: center;
+    min-height: 100vh;
+    border: thick double #32a1ce; */
+
+    background-color:#313136;
+    height: 20rem;
+    width:80rem;
+    border-radius:30px;
+    color:#ffffff;
+    text-align: center;
+    padding:50px;
+    border: thick double white;
+  }
+  .contactPara{
+    text-align: center;
+  }
+  .btnclass{
+    background-color:red;
+  }
+  .btn-primary:hover{
+    background-color:white;
+  }
