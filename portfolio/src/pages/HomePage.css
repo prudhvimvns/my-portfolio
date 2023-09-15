@@ -246,3 +246,26 @@ b{
   .btn-primary:hover{
     background-color:white;
   }
+
+  /* Mobile Devices */
+@media screen and (max-width: 767px) {
+    .boxLayout{
+        background-color:#313136;
+        width:25rem;
+        height:auto;
+        border-radius:30px;
+        color:#ffffff;
+        text-align: center;
+        padding:20px;
+    }
+    .contactDiv{
+        background-color:#313136;
+        /* height: 20rem; */
+        width:25rem;
+        border-radius:30px;
+        color:#ffffff;
+        text-align: center;
+        padding:50px;
+        border: thick double white;
+      }
+  }
