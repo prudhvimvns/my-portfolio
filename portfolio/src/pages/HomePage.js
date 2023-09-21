@@ -95,7 +95,7 @@ const HomePage = () =>{
         </div>
       </div>
 
-        <div data-aos="fade-left" className="Section">
+        <div data-aos="fade-left" className="Section1">
             <div className="container">
 
               <div className="row">
@@ -112,6 +112,21 @@ const HomePage = () =>{
               </div>
 
             </div>
+        </div>
+
+        <div data-aos="fade-right" className="">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <h1>Tech Skills   |</h1>
+              </div>
+              <div className="col-lg-6">
+                <h1>Heyy</h1>
+              </div>
+
+            </div>
+          </div>
+
         </div>
 
         <div ref={myref} data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease" className="Section">
@@ -141,7 +156,7 @@ const HomePage = () =>{
         </div>
 
 
-        <div ref={myref2} data-aos="fade-right" data-aos-duration="3000" data-aos-easing="ease-out-cubic" className="Section">
+        <div ref={myref2} data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-out-cubic" className="Section">
           <h2>Projects 🏗️</h2>
                 <div class="container">
                       <div class="row">
@@ -204,7 +219,7 @@ const HomePage = () =>{
         </div>
 
 
-        <div ref={myref3} data-aos="fade-left" data-aos-duration="3000" data-aos-easing="ease-out-cubic" className="Section">
+        <div ref={myref3} data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-out-cubic" className="Section">
           <h2>Certificates 🥇</h2>
                 <div class="container">
                       <div class="row">

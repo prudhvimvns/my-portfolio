@@ -13,6 +13,12 @@
 .x{
     animation-delay: 0.2s;
 }
+.Section1{
+  display: grid;
+  align-items: center;
+  place-items: center;
+  min-height: 80vh;
+}
 .Section{
     display: grid;
     align-items: center;
