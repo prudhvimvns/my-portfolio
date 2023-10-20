@@ -158,6 +158,65 @@ const HomePage = () =>{
 
         <div ref={myref2} data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-out-cubic" className="Section">
           <h2>Projects 🏗️</h2>
+          <div class="container">
+                      <div class="row">
+                        <div class="col-sm outerBox">
+                          <div className="pic"></div>
+                            <h4 href="https://github.com/prudhvimvns/DMV-Chat">DB GPT 🚗💬</h4>
+                            <p>This project uses streamlit, PyPDF2, OpenAI embedding, and FAISS to create chat interface that allows users to ask questions about DMV handbook using OpenAI.</p>
+                          <div className="container">
+                            <div className="row ">
+                              <div className="col-sm">
+                              <button className="btn btn-primary"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://github.com/prudhvimvns/DMV-Chat', '_blank');
+                                  }}
+                                >Github</button>
+                                {/* <a href="https://github.com/gopinathsjsu/team-project-team-four"><img src="./github-mark.png" alt="Github"></img></a> */}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm outerBox">
+                        <div className="twitter"></div>
+                          <h4>DMV Chat 🚗💬</h4>
+                          <p>This project uses streamlit, PyPDF2, OpenAI embedding, and FAISS to create chat interface that allows users to ask questions about DMV handbook using OpenAI.</p>
+                          <div className="container">
+                            <div className="row ">
+                              <div className="col-sm">
+                              <button className="btn btn-primary"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://github.com/prudhvimvns/DMV-Chat', '_blank');
+                                  }}
+                                >Github</button>
+                                {/* <a href="https://github.com/aman-kaur-11/cmpe255_group_gapv"><img src="./github-logo.png" alt="Githubb"></img></a> */}
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="col-sm outerBox">
+                          <div className="robo"></div>
+                          <h4>Pic Talk 🏞️🎙️</h4>
+                          <p>•	This project uses artificial intelligence to automate the process of generating audio stories from images. It uses machine learning to extract the meaning of images and natural language processing to generate text in a natural and engaging way.</p>
+                          <div className="container">
+                            <div className="row ">
+                              <div className="col-sm">
+                              <button className="btn btn-primary"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://github.com/prudhvimvns/Image-2-Audio', '_blank');
+                                  }}
+                                >Github</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
                 <div class="container">
                       <div class="row">
                         <div class="col-sm outerBox">
