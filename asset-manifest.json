@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.515e051e.css",
-    "main.js": "/my-portfolio/static/js/main.d3d190a5.js",
+    "main.css": "/my-portfolio/static/css/main.6a8f0e2e.css",
+    "main.js": "/my-portfolio/static/js/main.e88a9d00.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pictalk.png": "/my-portfolio/static/media/pictalk.74f357f262368f9e6d15.png",
+    "static/media/dbgpt.png": "/my-portfolio/static/media/dbgpt.91ba1c1533c65f900380.png",
+    "static/media/dmvchat.png": "/my-portfolio/static/media/dmvchat.2c1e6016f7e52a223437.png",
     "static/media/pic2.jpeg": "/my-portfolio/static/media/pic2.afc49a88a1178811a363.jpeg",
     "static/media/airplane.jpg": "/my-portfolio/static/media/airplane.bc46b97cefa6a99816d8.jpg",
     "static/media/robot.jpg": "/my-portfolio/static/media/robot.2a420bd1b39bfecc4c71.jpg",
@@ -14,12 +17,12 @@
     "static/media/twitters.webp": "/my-portfolio/static/media/twitters.7107da4eccdc06167c27.webp",
     "static/media/github-logo.png": "/my-portfolio/static/media/github-logo.6f2fabee70ab7ff864b2.png",
     "index.html": "/my-portfolio/index.html",
-    "main.515e051e.css.map": "/my-portfolio/static/css/main.515e051e.css.map",
-    "main.d3d190a5.js.map": "/my-portfolio/static/js/main.d3d190a5.js.map",
+    "main.6a8f0e2e.css.map": "/my-portfolio/static/css/main.6a8f0e2e.css.map",
+    "main.e88a9d00.js.map": "/my-portfolio/static/js/main.e88a9d00.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.515e051e.css",
-    "static/js/main.d3d190a5.js"
+    "static/css/main.6a8f0e2e.css",
+    "static/js/main.e88a9d00.js"
   ]
 }
