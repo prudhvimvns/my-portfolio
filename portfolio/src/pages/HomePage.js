@@ -102,11 +102,11 @@ const HomePage = () =>{
                 <div className="col-lg-5">
                   <div className="xx"></div>
                 </div>
-                <div className="col-lg">
+                <div className="col-lg biotext">
                       <h2>Hey Hi👋</h2>
                       <h2>I'm Prudhvi. A passionate <b>Full Stack Developer</b> based in San Jose, CA. 📍</h2>
                       <div class="move">
-                        <h3 onClick={handleClick}>Know Me👇</h3>
+                        <h2 onClick={handleClick}><b>Know Me👇</b></h2>
                       </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const HomePage = () =>{
             </div>
         </div>
 
-        <div data-aos="fade-right" className="">
+        {/* <div data-aos="fade-right" className="">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -127,7 +127,7 @@ const HomePage = () =>{
             </div>
           </div>
 
-        </div>
+        </div> */}
 
         <div ref={myref} data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease" className="Section">
                 <div className="boxLayout">
@@ -161,8 +161,8 @@ const HomePage = () =>{
           <div class="container">
                       <div class="row">
                         <div class="col-sm outerBox">
-                          <div className="pic"></div>
-                            <h4 href="https://github.com/prudhvimvns/DMV-Chat">DB GPT 🚗💬</h4>
+                          <div className="dbgpt"></div>
+                            <h4 href="https://github.com/prudhvimvns/DB-GPT">DB GPT</h4>
                             <p>This project uses streamlit, PyPDF2, OpenAI embedding, and FAISS to create chat interface that allows users to ask questions about DMV handbook using OpenAI.</p>
                           <div className="container">
                             <div className="row ">
@@ -170,7 +170,7 @@ const HomePage = () =>{
                               <button className="btn btn-primary"
                                   onClick={(e) => {
                                     e.preventDefault();
-                                    window.open('https://github.com/prudhvimvns/DMV-Chat', '_blank');
+                                    window.open('https://github.com/prudhvimvns/DB-GPT', '_blank');
                                   }}
                                 >Github</button>
                                 {/* <a href="https://github.com/gopinathsjsu/team-project-team-four"><img src="./github-mark.png" alt="Github"></img></a> */}
@@ -179,7 +179,7 @@ const HomePage = () =>{
                           </div>
                         </div>
                         <div class="col-sm outerBox">
-                        <div className="twitter"></div>
+                        <div className="dmvchat"></div>
                           <h4>DMV Chat 🚗💬</h4>
                           <p>This project uses streamlit, PyPDF2, OpenAI embedding, and FAISS to create chat interface that allows users to ask questions about DMV handbook using OpenAI.</p>
                           <div className="container">
@@ -198,7 +198,7 @@ const HomePage = () =>{
 
                         </div>
                         <div class="col-sm outerBox">
-                          <div className="robo"></div>
+                          <div className="pictalk"></div>
                           <h4>Pic Talk 🏞️🎙️</h4>
                           <p>•	This project uses artificial intelligence to automate the process of generating audio stories from images. It uses machine learning to extract the meaning of images and natural language processing to generate text in a natural and engaging way.</p>
                           <div className="container">
@@ -222,7 +222,7 @@ const HomePage = () =>{
                         <div class="col-sm outerBox">
                           <div className="pic"></div>
                             <h4 href="https://github.com/gopinathsjsu/team-project-team-four">Airport Management System✈️</h4>
-                            <p>The website is designed for airport management needs and provides a user interface that displays flight information for arrivals and departures. It has an employee login for airline and airport staff, admin management, and baggage handling capabilities. The system automatically assigns gate numbers to flights and manages baggage carousel assignments. The website is hosted on the AWS Elastic Compute Cloud platform and includes an autoscaling load balancer to handle high traffic.</p>
+                            <p>Airport management website with user interface for flight information, employee login, admin management, baggage handling, gate and carousel assignments, hosted on AWS Elastic Compute Cloud with autoscaling load balancer.</p>
                           <div className="container">
                             <div className="row ">
                               <div className="col-sm">
@@ -240,7 +240,7 @@ const HomePage = () =>{
                         <div class="col-sm outerBox">
                         <div className="twitter"></div>
                           <h4>Twitter Data Analysis📈</h4>
-                          <p>The dataset contains various attributes related to climate change tweets posted on Twitter, including the date and time of the tweet, the user's ID, longitude and latitude coordinates for geographical location, topics related to climate change, sentiment towards climate change, stance on climate change (believer, denier, neutral), gender of the user, average temperature at the location of the user, and the level of text aggression in the tweet. The dataset has some missing values and undefined or unrelated one-word hashtags, which will be handled during data preprocessing.</p>
+                          <p>Climate change tweet dataset with date, time, user ID, geo-coordinates, topics, sentiment, stance, gender, temperature, and aggression. Missing values and unrelated hashtags will be handled during preprocessing.</p>
                           <div className="container">
                             <div className="row ">
                               <div className="col-sm">
@@ -259,7 +259,7 @@ const HomePage = () =>{
                         <div class="col-sm outerBox">
                           <div className="robo"></div>
                           <h4>Security Robot🤖</h4>
-                          <p>The objective of the project is to integrate Amazon Web Services (AWS) Robomaker with a web application. This integration will allow users to control the robot through the web interface, which is deployed in the AWS Elastic Compute Cloud (EC2) environment and is equipped with an autoscaling load balancer to manage high traffic demands.</p>
+                          <p>Integrate AWS RoboMaker with a web app in EC2 with autoscaling load balancer for robot control.</p>
                           <div className="container">
                             <div className="row ">
                               <div className="col-sm">

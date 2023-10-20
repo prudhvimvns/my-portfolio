@@ -67,10 +67,10 @@ background-repeat: no-repeat;
 background-size: cover;
 border: 3px solid #2d2e32;
 border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-height: 20rem;
+height: 23rem;
 position: relative;
 transition: all 1s ease-in-out;
-width: 20rem;
+width: 23rem;
 }
 .xxx{
   animation: morph 8s ease-in-out infinite;
@@ -80,12 +80,15 @@ background-repeat: no-repeat;
 background-size: cover;
 border: 3px solid #2d2e32;
 border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-height: 20rem;
+height: 23rem;
 position: relative;
 transition: all 1s ease-in-out;
-width: 20rem;
+width: 23rem;
 }
 
+.biotext{
+  padding-top:15vh;
+}
 .menu-tabs{
     text-align: right;
 }
@@ -156,6 +159,7 @@ b{
     margin:10px;
     border-radius: 10px;
     /* padding: 10px; */
+    padding: 0px !important;
     min-height: 100px;
     text-align: center;
   }
@@ -173,7 +177,31 @@ b{
     background-position: 50%;
     background-size: cover;
     cursor: pointer;
-    height: 10rem;
+    height: 17rem;
+    width: auto;
+  }
+  .dbgpt{
+    background-image:url("./dbgpt.png");
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+    height: 17rem;
+    width: auto;
+  }
+  .pictalk{
+    background-image:url("./pictalk.png");
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+    height: 17rem;
+    width: auto;
+  }
+  .dmvchat{
+    background-image:url("./dmvchat.png");
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+    height: 17rem;
     width: auto;
   }
   .github{
@@ -189,7 +217,7 @@ b{
     background-image:url("./twitters.webp");
     background-position: 50%;
     background-size: cover;
-    height: 10rem;
+    height: 17rem;
     cursor: pointer;
     width: auto;
   }
@@ -223,7 +251,7 @@ b{
     background-image:url("./robot.jpg");
     background-position: 50%;
     background-size: cover;
-    height: 10rem;
+    height: 17rem;
     width: auto;
   }
   .contactDiv{
