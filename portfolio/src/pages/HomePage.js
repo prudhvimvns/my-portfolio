@@ -104,7 +104,7 @@ const HomePage = () =>{
                 </div>
                 <div className="col-lg biotext">
                       <h2>Hey Hi👋</h2>
-                      <h2>I'm Prudhvi. A passionate <b>Full Stack Developer</b> based in San Jose, CA. 📍</h2>
+                      <h2>I'm Prudhvi. A passionate <b className="gradient">Full Stack Developer</b> based in San Jose, CA. 📍</h2>
                       <div class="move">
                         <h2 onClick={handleClick}><b>Know Me👇</b></h2>
                       </div>
@@ -139,13 +139,13 @@ const HomePage = () =>{
                       </div>
                       <div className="col-lg">
                             <h1>About Me🙋‍♂️</h1>
-                            <h5> I am a graduate student at <b>San Jose State University🏫,</b> pursuing Master's in Software Engineering🎓.
-                                  I worked as a Associate Software Engineer & Data Analyst Engineer at Abjayon.Inc👔, Hyderabad, India🇮🇳 from October, 2020 to June, 2022.
-                                  I have graduated in 2020 as a Bachelors of Technology (B.Tech) in Computer Science and Engg 👨‍💻. from Sreenidhi Institute of Science and Technology, Telangana.
+                            <h5> I am a graduate student at <b className="gradient2">San Jose State University</b>🏫, pursuing Master's in Software Engineering🎓.
+                                  I worked as a <b className="gradient4">Associate Software Engineer</b> at Abjayon.Inc👔, Hyderabad, India🇮🇳 from October, 2020 to June, 2022.
+                                  I have graduated in 2020 as a <b className="gradient5">Bachelors of Technology (B.Tech)</b> in Computer Science and Engg 👨‍💻. from Sreenidhi Institute of Science and Technology, Telangana.
                                   In my last professional experience, my day to day activities majorly involved in understanding user stories from clients, developing applications according to wireframe models, regressive testing, working with raw data to analyze and visualize using Google Analytics📈 and Google Data Studio 📊, and developing important POCs for the organization. 
                             </h5>
                             <div className="move">
-                                <h4 onClick={handleClick2}>Wanna See Projects that i worked on🤔?</h4>
+                                <h4 onClick={handleClick2}>Wanna See <b className="gradient5">Projects</b> that i worked on🤔?</h4>
                             </div>
 
                       </div>
