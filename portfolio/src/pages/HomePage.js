@@ -188,9 +188,9 @@ const HomePage = () =>{
                               <button className="btn btn-primary"
                                   onClick={(e) => {
                                     e.preventDefault();
-                                    window.open('https://github.com/prudhvimvns/DMV-Chat', '_blank');
+                                    window.open('https://dmv-chat.streamlit.app/', '_blank');
                                   }}
-                                >Github</button>
+                                >Demo</button>
                                 {/* <a href="https://github.com/aman-kaur-11/cmpe255_group_gapv"><img src="./github-logo.png" alt="Githubb"></img></a> */}
                               </div>
                             </div>
@@ -200,7 +200,7 @@ const HomePage = () =>{
                         <div class="col-sm outerBox">
                           <div className="pictalk"></div>
                           <h4>Pic Talk 🏞️🎙️</h4>
-                          <p>•	This project uses artificial intelligence to automate the process of generating audio stories from images. It uses machine learning to extract the meaning of images and natural language processing to generate text in a natural and engaging way.</p>
+                          <p>This project uses artificial intelligence to automate the process of generating audio stories from images. It uses machine learning to extract the meaning of images and natural language processing to generate text in a natural and engaging way.</p>
                           <div className="container">
                             <div className="row ">
                               <div className="col-sm">
