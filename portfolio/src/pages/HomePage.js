@@ -167,12 +167,18 @@ const HomePage = () =>{
                           <div className="container">
                             <div className="row ">
                               <div className="col-sm">
-                              <button className="btn btn-primary"
+                              <button className="btn btn-primary githubbtn"
                                   onClick={(e) => {
                                     e.preventDefault();
                                     window.open('https://github.com/prudhvimvns/DB-GPT', '_blank');
                                   }}
                                 >Github</button>
+                                                              <button className="btn btn-primary githubbtn"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://db-gpt.streamlit.app/', '_blank');
+                                  }}
+                                >Demo</button>
                                 {/* <a href="https://github.com/gopinathsjsu/team-project-team-four"><img src="./github-mark.png" alt="Github"></img></a> */}
                               </div>
                             </div>
@@ -185,7 +191,13 @@ const HomePage = () =>{
                           <div className="container">
                             <div className="row ">
                               <div className="col-sm">
-                              <button className="btn btn-primary"
+                              <button className="btn btn-primary githubbtn"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://github.com/prudhvimvns/DMV-Chat', '_blank');
+                                  }}
+                                >Github</button>
+                              <button className="btn btn-primary githubbtn"
                                   onClick={(e) => {
                                     e.preventDefault();
                                     window.open('https://dmv-chat.streamlit.app/', '_blank');

@@ -274,6 +274,9 @@ b{
   .contactPara{
     text-align: center;
   }
+  .githubbtn{
+    margin:10px;
+  }
   .btnclass{
     /* background-color:red; */
     background-color: #FBDA61;
