@@ -162,7 +162,7 @@ const HomePage = () =>{
                       <div class="row">
                         <div class="col-sm outerBox">
                           <div className="dbgpt"></div>
-                            <h4 href="https://github.com/prudhvimvns/DB-GPT">DB GPT</h4>
+                            <h4 href="https://github.com/prudhvimvns/DB-GPT"><b>DB GPT</b></h4>
                             <p>This project uses streamlit, PyPDF2, OpenAI embedding, and FAISS to create chat interface that allows users to ask questions about DMV handbook using OpenAI.</p>
                           <div className="container">
                             <div className="row ">
@@ -186,7 +186,7 @@ const HomePage = () =>{
                         </div>
                         <div class="col-sm outerBox">
                         <div className="dmvchat"></div>
-                          <h4>DMV Chat 🚗💬</h4>
+                          <h4><b>DMV Chat 🚗💬</b></h4>
                           <p>This project uses streamlit, PyPDF2, OpenAI embedding, and FAISS to create chat interface that allows users to ask questions about DMV handbook using OpenAI.</p>
                           <div className="container">
                             <div className="row ">
@@ -211,7 +211,7 @@ const HomePage = () =>{
                         </div>
                         <div class="col-sm outerBox">
                           <div className="pictalk"></div>
-                          <h4>Pic Talk 🏞️🎙️</h4>
+                          <h4><b>Pic Talk 🏞️🎙️</b></h4>
                           <p>This project uses artificial intelligence to automate the process of generating audio stories from images. It uses machine learning to extract the meaning of images and natural language processing to generate text in a natural and engaging way.</p>
                           <div className="container">
                             <div className="row ">
@@ -233,7 +233,7 @@ const HomePage = () =>{
                       <div class="row">
                         <div class="col-sm outerBox">
                           <div className="pic"></div>
-                            <h4 href="https://github.com/gopinathsjsu/team-project-team-four">Airport Management System✈️</h4>
+                            <h4 href="https://github.com/gopinathsjsu/team-project-team-four"><b>Airport Management System✈️</b></h4>
                             <p>Airport management website with user interface for flight information, employee login, admin management, baggage handling, gate and carousel assignments, hosted on AWS Elastic Compute Cloud with autoscaling load balancer.</p>
                           <div className="container">
                             <div className="row ">
@@ -251,7 +251,7 @@ const HomePage = () =>{
                         </div>
                         <div class="col-sm outerBox">
                         <div className="twitter"></div>
-                          <h4>Twitter Data Analysis📈</h4>
+                          <h4><b>Twitter Data Analysis📈</b></h4>
                           <p>Climate change tweet dataset with date, time, user ID, geo-coordinates, topics, sentiment, stance, gender, temperature, and aggression. Missing values and unrelated hashtags will be handled during preprocessing.</p>
                           <div className="container">
                             <div className="row ">
@@ -270,7 +270,7 @@ const HomePage = () =>{
                         </div>
                         <div class="col-sm outerBox">
                           <div className="robo"></div>
-                          <h4>Security Robot🤖</h4>
+                          <h4><b>Security Robot🤖</b></h4>
                           <p>Integrate AWS RoboMaker with a web app in EC2 with autoscaling load balancer for robot control.</p>
                           <div className="container">
                             <div className="row ">
