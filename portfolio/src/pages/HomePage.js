@@ -103,7 +103,7 @@ const HomePage = () =>{
                   <div className="xx"></div>
                 </div>
                 <div className="col-lg biotext">
-                      <h2>Hey Hi👋</h2>
+                      <h2>Hey Hi <span className="wave">👋</span></h2>
                       <h2>I'm Prudhvi. A passionate <b className="gradient">Full Stack Developer</b> based in San Jose, CA. 📍</h2>
                       <div class="move">
                         <h2 onClick={handleClick}><b>Know Me👇</b></h2>
